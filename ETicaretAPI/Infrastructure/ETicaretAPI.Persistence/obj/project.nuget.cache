@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "N59hUZgLjo/qbQVGFob2d7G7h2JGMoveHt1REAwES0qLh5M9TmWWGmqUqYvgIO69BJeF1bvKAaJRgkFtXoMArg==",
+  "dgSpecHash": "tJp7tO1G6n6Dr+jNb5tWJI7oL36IrBZn+j1HhOh6E8p6cD58mCL61d2QA1+VNU3dlE/63rRiLjU5750wYfoLaQ==",
   "success": true,
   "projectFilePath": "/Users/cihaterdogmak/Dev/ETicaretUygulamasi/ETicaretAPI/Infrastructure/ETicaretAPI.Persistence/ETicaretAPI.Persistence.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/cihaterdogmak/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.1/microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

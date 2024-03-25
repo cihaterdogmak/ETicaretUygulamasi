@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "xOPWE2mPXy7LVkxG2WOyIQrKzYuZSenTnb27oCB9rEMoMO2rjFvp9XRAwmeTkERrEbhDCPjaPZQAC1H8KiMnUw==",
+  "dgSpecHash": "pBkzSkYG2WP50V1AYfpbPXy9Y0/lbwu5Cl4zJXa5Vo+q4wVAtSnkZhTJxIfehqfjkRoYKc4yx5CwxDk+J2tEsQ==",
   "success": true,
   "projectFilePath": "/Users/cihaterdogmak/Dev/ETicaretUygulamasi/ETicaretAPI/Core/ETicaretAPI.Application/ETicaretAPI.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/cihaterdogmak/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.1/microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
