@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using ETicaretAPI.Persistence.Contexts;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace ETicaretAPI.Persistence;

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KftceYoa37iol/YLf/XWNESkp7jLdCl+fZUrtsZ2J/ZEX9+xnOZ8sGEEXb87BZpWPt3YfTgFrt57PZoko9awkw==",
+  "dgSpecHash": "pQR1qLth5dQHXHKmRuxDVFsByE6Rl7ejcMrGOagp2Y4VZWuO0tqpUcgSg1zqhgkVVl/GBq4C7gBcY2bl26x3jg==",
   "success": true,
   "projectFilePath": "/Users/cihaterdogmak/Dev/ETicaretUygulamasi/ETicaretAPI/ETicaretAPI.API/ETicaretAPI.API.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "/Users/cihaterdogmak/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.1/microsoft.entityframeworkcore.analyzers.8.0.1.nupkg.sha512",
     "/Users/cihaterdogmak/.nuget/packages/microsoft.entityframeworkcore.design/8.0.1/microsoft.entityframeworkcore.design.8.0.1.nupkg.sha512",
     "/Users/cihaterdogmak/.nuget/packages/microsoft.entityframeworkcore.relational/8.0.1/microsoft.entityframeworkcore.relational.8.0.1.nupkg.sha512",
+    "/Users/cihaterdogmak/.nuget/packages/microsoft.entityframeworkcore.tools/8.0.1/microsoft.entityframeworkcore.tools.8.0.1.nupkg.sha512",
     "/Users/cihaterdogmak/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/Users/cihaterdogmak/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0/microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "/Users/cihaterdogmak/.nuget/packages/microsoft.extensions.caching.memory/8.0.0/microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
