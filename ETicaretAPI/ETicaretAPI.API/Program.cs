@@ -2,25 +2,27 @@ using ETicaretAPI.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddPersistenceServices();
+var configuration = builder.Configuration;
 
-builder.Services.AddControllers();
+builder.Services.AddPersistenceServices(configuration);
 
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+    builder.Services.AddControllers();
 
-var app = builder.Build();
+    builder.Services.AddEndpointsApiExplorer();
+    builder.Services.AddSwaggerGen();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+    var app = builder.Build();
 
-app.UseHttpsRedirection();
+    if (app.Environment.IsDevelopment())
+    {
+        app.UseSwagger();
+        app.UseSwaggerUI();
+    }
 
-app.UseAuthorization();
+    app.UseHttpsRedirection();
 
-app.MapControllers();
+    app.UseAuthorization();
 
-app.Run();
+    app.MapControllers();
+
+    app.Run();

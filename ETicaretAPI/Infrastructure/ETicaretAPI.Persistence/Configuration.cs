@@ -1,17 +1,17 @@
 using Microsoft.Extensions.Configuration;
+using System.Diagnostics.CodeAnalysis;
 
-namespace ETicaretAPI.Persistence;
-
-static class Configuration
+namespace ETicaretAPI.Persistence
 {
-    static public string ConnectionString
+    public class Configuration
     {
-        get
+        private readonly IConfiguration _configuration;
+
+        public Configuration(IConfiguration configuration)
         {
-            ConfigurationManager configurationManager = new();
-            configurationManager.SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "../../Presentation/ETicaretAPI.API"));
-            configurationManager.AddJsonFile("appsettings.json");
-            return configurationManager.GetConnectionString("PostgreSQL");
+            _configuration = configuration;
         }
+
+        public string PostgreSQLConnectionString => _configuration.GetConnectionString("PostgreSQL");
     }
 }

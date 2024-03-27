@@ -7,8 +7,16 @@ namespace ETicaretAPI.Persistence;
 
 public static class ServiceRegistration
 {
-    public static void AddPersistenceServices(this IServiceCollection services)
+    public static void AddPersistenceServices(this IServiceCollection services, IConfiguration configuration)
     {
-        services.AddDbContext<ETicaretAPIDbContext>(options => options.UseNpgsql(Configuration.ConnectionString));
+        services.AddDbContext<ETicaretAPIDbContext>(options => options.UseNpgsql(configuration.GetConnectionString("PostgreSQL")));
     }
 }
+
+// public static class ServiceRegistration
+// {
+//     public static void AddPersistenceServices(this IServiceCollection services)
+//     {
+//         services.AddDbContext<ETicaretAPIDbContext>(options => options.UseNpgsql(Configuration.ConnectionString));
+//     }
+// }
