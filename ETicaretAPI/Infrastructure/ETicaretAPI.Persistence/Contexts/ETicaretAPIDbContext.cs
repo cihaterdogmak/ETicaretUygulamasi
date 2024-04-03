@@ -5,7 +5,7 @@ namespace ETicaretAPI.Persistence.Contexts;
 
 public class ETicaretAPIDbContext : DbContext
 {
-    public ETicaretAPIDbContext(DbContextOptions options) : base(options) { }
+    public ETicaretAPIDbContext(DbContextOptions<ETicaretAPIDbContext> options) : base(options) { }
 
     public DbSet<Product> Products { get; set; }
     public DbSet<Order> Orders { get; set; }

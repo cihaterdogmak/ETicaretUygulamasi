@@ -9,7 +9,7 @@ public static class ServiceRegistration
 {
     public static void AddPersistenceServices(this IServiceCollection services, IConfiguration configuration)
     {
-        services.AddDbContext<ETicaretAPIDbContext>(options => options.UseNpgsql(configuration.GetConnectionString("PostgreSQL")));
+        services.AddDbContext<ETicaretAPIDbContext>(options => options.UseNpgsql("Host=localhost; Port=5432; User Id=postgres; Password=1234; Database=ETicaretAPIDb"));
     }
 }
 

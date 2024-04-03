@@ -1,5 +1,4 @@
 using Microsoft.Extensions.Configuration;
-using System.Diagnostics.CodeAnalysis;
 
 namespace ETicaretAPI.Persistence
 {
