@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ETicaretAPI.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+682c17dd1c8f9527c06d7c4553e8df6f9e4d1926")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e5e535b7aa24241c72af71e0e85e8f6b38eb682")]
 [assembly: System.Reflection.AssemblyProductAttribute("ETicaretAPI.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ETicaretAPI.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
